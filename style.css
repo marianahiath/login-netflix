@@ -1,0 +1,49 @@
+body {
+    background-color: #181818;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, button {
+    height: 65px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    border: 0;
+}
+
+input {
+    background-color: #2E2E2E;
+    margin-bottom: 2px;
+}
+
+button {
+    margin: 20px auto;
+    background: none;
+    border: 2px solid #2e2e2e;
+    color: #aaa;
+}
+
+a {
+    margin: 20px auto;
+    font-family: 'Roboto' , sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+.forgot-password {
+    color: #aaa;
+    font-weight: normal;
+}
+
+img {
+    width: 100%;
+}
